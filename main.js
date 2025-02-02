@@ -33,10 +33,8 @@ function createFloatingMenu() {
     closeIcon.innerHTML = `<img src="images/icon-close-menu.svg" alt="Close icon" />`;
     closeIcon.onclick = () => floatingMenu.remove();
 
-    navMenu.style.display = 'block';
 
     floatingMenu.appendChild(closeIcon);
-    floatingMenu.appendChild(navMenu);
 
     return floatingMenu;
 }
