@@ -24,7 +24,7 @@ const featuresDropdown = [
 ];
 
 
-export function dropdonwMenu(index) {
+export function dropdownMenu(index) {
     const drodownWrapper = document.createElement('article');
     drodownWrapper.classList.add('dropdown-menu');
 
