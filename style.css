@@ -248,6 +248,10 @@ main {
         gap: 0.5rem;
     }
 
+    .floating-menu {
+        display: none;
+    }
+
     .dropdown {
         position: relative;
     }

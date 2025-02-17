@@ -83,6 +83,4 @@ navigationBtn.addEventListener('click', (event) => {
     console.log('menu clicked');
     const menu = createFloatingMenu();
     document.body.appendChild(menu);
-
-
 });
